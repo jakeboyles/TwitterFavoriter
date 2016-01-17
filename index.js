@@ -11,10 +11,10 @@ app.listen(process.env.PORT || 5000);
 // Config.keys uses environment variables so sensitive info is not in the repo.
 var config = {
     keys: {
-        consumer_key: 'YfsYL0zwFzAXf3sgVaMHK9i8U',
-        consumer_secret: 'Drj3y2P4OqxLFh4yWXHPy4LF8wd3igdcIWaT7kaLUsOdoq2omG',
-        access_token_key: '18745434-J6iAMchtjhnMgxGvd1Pmk0lSNNSbDm7PJ0fzA8hgj',
-        access_token_secret: 'KS1FNoiKa3agJg4YkfTUvSNzRsoG1vd26D9dPoE0U1CaW'
+        consumer_key: '',
+        consumer_secret: '',
+        access_token_key: '',
+        access_token_secret: ''
     },
 };
 
