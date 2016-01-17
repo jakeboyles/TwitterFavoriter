@@ -12,7 +12,7 @@
     "url": "https://github.com/bryanbraun/twitter-listbot/issues"
   },
   "dependencies": {
-    "tuiter": "~0.2.12",
+    "twiter": "latest",
     "express": "~4.9.0"
   },
   "devDependencies": {},

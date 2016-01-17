@@ -22,7 +22,7 @@ var config = {
 // Get the members of our list, and pass them into a callback function.
 function followTweets(word) {
 
-  tu.stream("statuses/filter", {'track': word}, function(stream) {
+  tu.stream("statuses/filter", {track: 'laravel'}, function(stream) {
   stream.on('data', function(tweet) {
 
     var id = tweet.id_str;
@@ -50,4 +50,4 @@ var tu = require('twitter')(config.keys);
 
 // Run the application. The callback in getListMembers ensures we get our list
 // of twitter streams before we attempt to listen to them via the twitter API.
-followTweets('laravel');
+followTweets('laravel,nodeJS,PHP');
