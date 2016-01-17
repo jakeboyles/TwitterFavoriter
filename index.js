@@ -44,10 +44,7 @@ function followTweets(word) {
 
 
 
-// The application itself.
-// Use the tuiter node module to get access to twitter.
+
 var tu = require('twitter')(config.keys);
 
-// Run the application. The callback in getListMembers ensures we get our list
-// of twitter streams before we attempt to listen to them via the twitter API.
 followTweets('laravel');
