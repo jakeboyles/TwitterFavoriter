@@ -22,7 +22,7 @@ var config = {
 // Get the members of our list, and pass them into a callback function.
 function followTweets(word) {
 
-  tu.stream('statuses/filter', {'track': word}, function(stream) {
+  tu.stream("statuses/filter", {'track': word}, function(stream) {
   stream.on('data', function(tweet) {
 
     var id = tweet.id_str;
